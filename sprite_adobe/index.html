@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			ul {
+				list-style: none;
+			}
+			
+			li {
+				font: bold 20px/25px "微软雅黑";
+				float: left;
+			}
+			
+			li:before {
+				content: ' ';
+				display: inline-block;
+				width: 132px;
+				height: 128px;
+				background: url(img/all.png);
+				margin: 0;
+				padding: 0;
+			}
+			
+			.ps:before {
+				background-position: -45px -21px;
+			}
+			
+			.ai:before {
+				background-position: -242px -21px;
+			}
+			
+			.ae:before {
+				background-position: -45px -183px;
+			}
+			
+			.au:before {
+				background-position: -242px -183px;
+			}
+			
+			.id:before {
+				background-position: -45px -345px;
+			}
+			.pr:before {
+				background-position: -242px -345px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div>
+			<ul>
+				<li class="ps">PS</li>
+				<li class="ai">AI</li>
+				<li class="ae">AE</li>
+				<li class="au">AU</li>
+				<li class="id">ID</li>
+				<li class="pr">PR</li>
+			</ul>
+		</div>
+	</body>
+
+</html>
